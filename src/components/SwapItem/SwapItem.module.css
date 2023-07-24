@@ -1,0 +1,28 @@
+.swap_item {
+  width: 1035px;
+  border: 1px solid #d9e0ec;
+  border-radius: 1rem;
+  background-color: white;
+  margin: auto;
+}
+
+.swap_item_top {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid #d9e0ec;
+}
+
+.swap_item_top::-webkit-scrollbar {
+  display: none;
+}
+
+.swap_item_top .asset_panel:first-of-type {
+  border-right: 1px solid #d9e0ec;
+}
+
+.accept_area {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

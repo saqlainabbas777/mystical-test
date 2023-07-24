@@ -1,0 +1,11 @@
+.accept_button {
+  width: 140px;
+  display: block;
+  background: linear-gradient(180deg, #085abc, #346beb 100%), #085abc;
+  color: white;
+  border-radius: 60px;
+  height: 50px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}

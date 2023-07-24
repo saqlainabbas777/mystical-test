@@ -1,0 +1,58 @@
+.asset_panel {
+  width: 50%;
+  padding: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.blocky {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.counter_blocky {
+  margin-left: auto;
+}
+
+.blocky_holder {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.reverse_blocky {
+  flex-direction: row-reverse;
+}
+
+.blocky_holder p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.panel_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dividing_border {
+  border-right: 1px solid #d9e0ec;
+}
+
+.panel_title {
+  margin: 0;
+  font-weight: 500;
+}
+
+.assets_holder {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  height: 150px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.assets_holder::-webkit-scrollbar {
+  display: none;
+}
